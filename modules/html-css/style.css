@@ -1,0 +1,45 @@
+/* Selectores de etiqueta */
+body {
+    background-color: aqua;
+}
+
+p {
+    font-style: italic;
+}
+
+/* selectores de clase */
+.myparrafo {
+    text-transform: uppercase;
+    color: green;
+}
+
+/* selectores anidados */
+ul.lista > li { 
+    text-decoration: underline;
+}
+
+
+/* multiples selectores  */
+ul.lista li, ol.lista2 li { 
+    text-transform: capitalize;
+}
+
+
+/* selectores de id */
+#item-gato {
+    font-weight: bold;
+}
+
+#item-gato:hover {
+    color: yellow;
+}
+
+/* especificidad de selectores, y se rompe con important */
+#one {
+    background-color: red;
+}
+
+.two {
+    background-color: yellow;
+    font-style: normal;
+}

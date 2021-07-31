@@ -1,0 +1,1 @@
+para correr es6: npm install --save-dev @babel/core @babel/node

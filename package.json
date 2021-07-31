@@ -1,0 +1,19 @@
+{
+  "name": "training-bros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "html-css": "parcel ./modules/html-css/index.html --port 3001",
+    "css-flexbox": "parcel ./modules/css-flexbox/index.html --port 3001",
+    "es-6": "npx babel-node  modules/es6/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.14.7",
+    "parcel-bundler": "^1.12.3"
+  }
+}

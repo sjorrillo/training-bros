@@ -1,0 +1,16 @@
+Goal: hacer una aplicacion web usando react js y consumiendo servicios: https://jsonplaceholder.typicode.com/
+
+1. conceptos bácicos
+    1.1 html -> https://www.w3schools.com/TAGS/default.ASP (Sesión 01 html)
+    1.2. css
+    1.3. sass -> preprocesador de estilos
+    1.4 javascript, EcmaScript6 (filter, some, every, etc) -> dos sesiones
+2. Reactjs 
+    2.1. como funciona
+    2.2. componentes
+    2.3. hooks
+    2.4. state management
+    2.5. crear la aplicacion
+
+3. off-topics:
+    3.1.: git

@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.root {
+    background-color: rgb(251, 156, 162);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.root > * {
+    margin: 12px
+}
+
+.header {
+    background-color: rgb(136, 200, 187);
+    height: 60px;
+    padding: 12px;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+}
+
+.content .sidebar {
+    background-color: rgb(82, 170, 167); 
+    width: 200px;
+    margin-right: 12px;
+    padding: 12px;
+}
+
+.content .main {
+    background-color: rgb(246, 68, 165); 
+    width: 100%;
+    padding: 12px;
+}
+
+.footer {
+    background-color: rgb(136, 200, 187);
+    height: 100px;
+    padding: 12px;
+}
